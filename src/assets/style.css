@@ -1,0 +1,249 @@
+/* src/assets/styles.css */
+body {
+  font-family: "Poppins", "Open Sans", sans-serif !important;
+}
+
+.title-word {
+  color: rgb(229, 229, 224);
+  font-size: 60px;
+  font-weight: 900;
+}
+.title-content {
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+@media (max-width:575px) {
+  .content-flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .content-img{
+    width: 100% !important;
+  }
+  .content-2{
+    width: 100% !important;
+  }
+
+  
+}
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+  .slider-en,
+  .slider-jp {
+    font-size: 10px;
+  }
+
+  .project-card-image {
+    height: 100%;
+    width: auto;
+  }
+  .content-flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .content-img{
+    width: 100% !important;
+  }
+  .content-2{
+    width: 100% !important;
+  }
+  
+.auto-img{
+  min-height: 85%;
+}
+.card-back .card-title{
+  font-size: 20px;
+}
+.card-back .card-sub{
+  font-size: 17px;
+}
+.card-back .card-text{
+font-size: 14px;
+
+}
+.quotes{
+  font-size: 13px;
+}
+.level{
+font-size: 12px;
+}
+.linkedin-img{
+  height: 10%;
+  width: 10%;
+}
+.card-flip {
+	position: relative;
+	width: 70%;
+	height:500px;
+	transition: transform 0.4s;
+	transform-style: preserve-3d;
+}
+.card-flip-member{
+  width: 100%;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .slider-en,
+  .slider-jp {
+    font-size: 10px;
+  }
+  .project-card {
+    width: 100%;
+  }
+  .slide-h3 h3{
+    font-size: 10%;
+ }
+ .content-flex{
+  display: flex;
+  flex-direction: column;
+}
+.content-img{
+  width: 100% !important;
+}
+.content-2{
+  width: 100% !important;
+}
+
+.auto-img{
+  height: 85%;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .slider-en,
+  .slider-jp {
+    font-size: 24px;
+  }
+  .slide-h3 h3{
+    font-size: 10%;
+ }
+ .content-flex{
+  display: flex;
+  flex-direction: row;
+}
+.content-img{
+  width: 100% !important;
+}
+.content-2{
+  width: 25% !important;
+}
+
+.auto-img{
+  height: 85%;
+}
+.card-back .card-title{
+  font-size: 15px;
+}
+.card-back .card-sub{
+  font-size: 12px;
+}
+.card-back .card-text{
+font-size: 14px;
+margin-bottom: -10px;
+}
+.quotes{
+  font-size: 13px;
+}
+.level{
+margin-top: -20px;
+font-size: 12px;
+}
+.card-front, .card-back{
+  height: 76%;
+ }
+ .card-flip {
+	position: relative;
+	width: 100%;
+	height:400px;
+	transition: transform 0.4s;
+	transform-style: preserve-3d;
+}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .slider-en {
+    font-size: 30px;
+  }
+
+  .slider-en {
+    font-weight: 900;
+  }
+  .content-flex{
+    display: flex;
+    flex-direction: row;
+}
+.content-img{
+    width: 100% !important;
+}
+.content-2{
+    width: 25% !important;
+}
+.auto-img{
+  height: 85%;
+}
+.card-back .card-title{
+  font-size: 20px;
+}
+.card-back .card-sub{
+  font-size: 15px;
+}
+.card-back	.card-text,.quotes,.level{
+font-size: 15px;
+}
+.card-front, .card-back{
+  height: 90%;
+ }
+
+ .card-flip {
+	position: relative;
+	width: 100%;
+	height: 380px;
+	transition: transform 0.4s;
+	transform-style: preserve-3d;
+}
+
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .slider-en,
+  .slider-jp {
+    font-size: 65px;
+  }
+  .slider-jp {
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .content-flex{
+    display: flex;
+    flex-direction: row;
+}
+.content-img{
+    width: 100% !important;
+}
+.content-2{
+    width: 25% !important;
+}
+.auto-img{
+  height: 85%;
+}
+.card-front, .card-back{
+  height: 100%;
+ }
+ .card-back .card-title{
+  font-size: 20px;
+}
+.card-back .card-sub, .quotes, .level{
+  font-size: 18px;
+}
+.card-back	.card-text{
+font-size: 14px;
+font-weight: 400;
+}
+
+
+
+}
